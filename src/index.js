@@ -44,3 +44,22 @@ const student={
     age: 20,
     isActive: true
 };
+/**
+ * Class to create a Person
+ */
+class Person{
+    /**
+     * 
+     * @param {Object} personInfo Information about the person
+     */
+    constructor(personInfo){
+        /**
+         * @property {string} name Person's name
+         */
+        this.name=personInfo.name;
+        /**
+         * @property {string} age Person's age
+         */
+        this.age=personInfo.age;
+    }
+}
