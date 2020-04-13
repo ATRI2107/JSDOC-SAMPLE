@@ -8,3 +8,12 @@ const studentName='Atri Chaturvedi';
  * @type {Array}
  */
 const grades =[98,97.7,100]
+
+/**
+ * Todo object
+ * @type {{id: number|string,text: string}}
+ */
+const todo={
+    id: '1',
+    text: 'Hello'
+};
