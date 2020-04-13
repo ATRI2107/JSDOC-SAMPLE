@@ -1,0 +1,15 @@
+{
+  "name": "sample-jsdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -c jsdoc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atri Chaturvedi",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^3.6.4"
+  }
+}
